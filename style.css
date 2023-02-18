@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+.flex-item{
+width: calc( 25% - 10px);
+margin: 24px 5px 0;
+box-shadow: 6px 6px 12px rgb(20, 30, 39);
+border-radius: 5px;
+overflow:hidden;
+background-color:blanchedalmond;
+
+
+}
+.flex-item .item-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+
+}
+.flex-item h2, .flex-item p{
+    text-align: center;
+}
+.flex-item p {
+font-style:oblique;
+}
+.main{
+    border: 5px solid rgb(255, 222, 0);
+    min-height: 100vh;
+    background-image: url('https://img.vietcetera.com/wp-content/uploads/2020/01/1st-gen-tet-feature.jpg');
+
+
+}
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    margin: 18px 12px ;
+    line-height: 24px;
+ }
+.head{
+    text-align: center;
+    color:rgb(255, 222, 0);
+    font-style: italic;
+    margin-top: 80px;
+    
+}
+body{
+    background-color: rgb(239, 239, 239);
+    
+}
+.header-menu{
+    background-color: rgb(230, 72, 72);
+    padding:0;
+    height: 50px;
+    display:flex;
+}
+.header-menu .menu-item {
+    color:blanchedalmond;
+    padding: 18px 24px;
+    text-decoration:none;
+    line-height: 16px;
+    height: 16px;
+}
+.header-menu .menu-item:hover {
+    background-color: darkgray ;
+    color: rgb(230, 72, 72);}
+    .banner {
+        background-image: url(http://channel.mediacdn.vn/2019/2/1/photo-2-1549025688492161857873.jpg);
+        text-align: center;
+        height:600px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      
+      }
+    .h1-banner{
+        color:black;
+        font-style:oblique;
+        margin-top: 60px;
+    }
+    .h5-banner{
+        color:black;
+        font-style:oblique;
+        font-size: larger;
+        
+    }
+.h1{
+    margin-top: 80px;
+}
+.div.a{
+    font-size: 30px;
+}
+.footer{
+    display: block;
+    background-color: blanchedalmond;
+    font-style: oblique;
+    text-align: center;
+}
